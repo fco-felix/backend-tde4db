@@ -1,0 +1,13 @@
+{
+    "name": "backend/login-db",
+    "description": "Projeto exemplo de login com banco de dados",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "App\\Config\\": "app/config",
+            "App\\Controllers\\": "app/controllers",
+            "App\\Models\\": "app/models",
+            "App\\Models\\BD\\": "app/models/dao"
+        }
+    }
+}
